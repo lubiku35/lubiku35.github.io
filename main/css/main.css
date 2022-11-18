@@ -10,11 +10,16 @@
     --primary-font-family: 'Montserrat';
 
     /* ======== PROJECT COLORS ======== */
-    --primary-dark-theme: linear-gradient(180deg, #0F0E16 0%, #0F0F0F 100%);
+    --primary-dark-theme: linear-gradient(213deg, rgb(2, 0, 25) 100%, rgb(17, 28, 82) 20%);
     --primary-light-theme: #fff;
 
     --primary-dark-text: #000;
     --primary-light-text: #fff;
+
+    /* ======== PROJECT BORDERS ======== */
+    --primary-project-border: 1px solid #474747;
+    --secondary-project-border: 1px solid rgba(0, 191, 255, 0.41);
+
 }
 
 * {
@@ -32,10 +37,22 @@ html {
 }
 
 body {
+    margin:  0 auto;
     min-width: 320px;
     max-width: 100vw;
 
+    width: 1440px;
+    height: 100vh;
+
+    border-left: var(--secondary-project-border);
+    border-right: var(--secondary-project-border);
+
     background: var(--primary-dark-theme);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+
     color: var(--primary-light-text);
 }
 
