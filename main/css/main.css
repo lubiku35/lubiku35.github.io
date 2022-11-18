@@ -3,6 +3,8 @@
 
 /* Linked CSS */
 @import url(./sections/landing.css);
+@import url(./sections/about.css);
+
 
 :root {
 
@@ -14,7 +16,7 @@
     --primary-light-theme: #fff;
 
     --primary-dark-text: #000;
-    --primary-light-text: #fff;
+    --primary-light-text: rgb(211, 211, 211);
 
     /* ======== PROJECT BORDERS ======== */
     --primary-project-border: 1px solid #474747;
@@ -42,14 +44,12 @@ body {
     max-width: 100vw;
 
     width: 1440px;
-    height: 100vh;
 
     border-left: var(--secondary-project-border);
     border-right: var(--secondary-project-border);
 
     background: var(--primary-dark-theme);
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
 

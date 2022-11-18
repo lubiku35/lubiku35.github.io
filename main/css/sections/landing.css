@@ -97,7 +97,7 @@
     width: 700px;
     height: 1px;
     
-    background: linear-gradient(270deg, #FFFFFF 52.52%, rgba(255, 255, 255, 0) 104.99%);
+    background: linear-gradient(270deg, rgb(211, 211, 211) 52.52%, rgba(255, 255, 255, 0) 104.99%);
     border: none;
 }
 
