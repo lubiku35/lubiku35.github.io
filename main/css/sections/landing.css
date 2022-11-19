@@ -102,27 +102,3 @@
     border: none;
 }
 
-.social-icons {
-    margin-top: 50px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 35px
-}
-
-.social-icons a img{
-    width: 35px;
-    opacity: .3;
-}
-
-.social-icons a img:focus{
-    opacity: 1;
-    transition: opacity 1s ease-out;
-}
-
-.social-icons a img:hover{
-    opacity: 1;
-    transition: opacity .5s ease-out;
-}

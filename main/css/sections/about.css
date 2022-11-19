@@ -56,14 +56,21 @@
     color: #00B2FF;
 }
 
-#about .about-caption {
+#about .about-me {
     margin: 0 auto;
     margin-top: 45px;
     width: 1200px;
+    
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px; 
 }
 
 #about .about-caption p {
-    font-size: 1em;    
+    font-size: 1.2em;    
     line-height: 1.8em;
 }
 
@@ -72,7 +79,32 @@
 }
 
 #about img {
-    width: 800px;
-    margin-top: 50px;
+    width: 400px;   
     align-self: left;
+}
+
+#about .social-icons {
+    margin: 0 auto;
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 35px
+}
+
+#about .social-icons a img{
+    width: 35px;
+    opacity: .3;
+}
+
+#about .social-icons a img:focus{
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+#about .social-icons a img:hover{
+    opacity: 1;
+    transition: opacity .5s ease-out;
 }
