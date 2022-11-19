@@ -41,6 +41,21 @@
     font-weight: 400;
 }
 
+#interests {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 1200px;
+    font-size: .8em;
+    color: #00b3ff5c;
+    letter-spacing: .26em;
+    line-height: 1.3em;
+}
+
+#interests span:hover {
+    cursor: pointer;
+    color: #00B2FF;
+}
+
 #about .about-caption {
     margin: 0 auto;
     margin-top: 45px;
