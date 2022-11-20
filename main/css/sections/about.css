@@ -10,7 +10,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-
 }
 
 #about .about-heading {
@@ -109,16 +108,31 @@
     transition: opacity .5s ease-out;
 }
 
-h3 {
-    margin: 0 auto;
-    margin-top: 50px;
+#continue-to-stats {
+    display: block;
+
+    margin-top: 30px;
+    width: 300px;
+
+    padding: 15px 10px 15px 22px;
+    border: 1px solid #00B2FF;
+
+    text-align: center;
     font-weight: 300;
-    letter-spacing: .7em;
     text-transform: uppercase;
 
     text-align: center;
+
+    cursor: pointer;
+
+    letter-spacing: 12px;
 }
 
-h3 span {
+
+#continue-to-stats span {
     color: #00B2FF;
+}
+
+#continue-to-stats:hover {
+    border: 1px solid #FFF;
 }
