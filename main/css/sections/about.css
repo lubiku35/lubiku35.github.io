@@ -108,3 +108,17 @@
     opacity: 1;
     transition: opacity .5s ease-out;
 }
+
+h3 {
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 300;
+    letter-spacing: .7em;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+h3 span {
+    color: #00B2FF;
+}

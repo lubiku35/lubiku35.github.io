@@ -7,6 +7,8 @@
 /* Linked CSS */
 @import url(./sections/landing.css);
 @import url(./sections/about.css);
+@import url(./sections/tech-stats.css);
+
 
 
 :root {
