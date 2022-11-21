@@ -1,7 +1,8 @@
 @import url(./progress-bars.css);
 
 #tech-stats {
-    height: 100vh;
+    height: 200vh;
+    padding: 100px 0;
 
     margin: 0 auto;
     width: 1440px;
@@ -10,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 #tech-stats .tech-stats-heading {
@@ -42,6 +43,23 @@
     font-weight: 400;
 }
 
+#tech-stats h3 span {
+    color: #00B2FF;
+    font-weight: 300;
+}
+
 #tech-stats img {
     margin-top: 200px;
+}
+
+.tech-stats-heading h3{
+    margin: 0 auto;
+    margin-top: 75px;
+    width: 1440px;
+
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-weight: 300;
 }
