@@ -3,6 +3,7 @@
     height: 100vh;
 
     margin: 0 auto;
+    padding: 20px 0 ;
     width: 1440px;
     max-width: 1440px;
 
@@ -14,7 +15,6 @@
 
 #about .about-heading {
     margin: 0 auto;
-    margin-top: 35px;
     width: 1200px;
 
     font-size: 2em;

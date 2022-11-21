@@ -1,3 +1,5 @@
+@import url(./progress-bars.css);
+
 #tech-stats {
     height: 100vh;
 
@@ -13,7 +15,6 @@
 
 #tech-stats .tech-stats-heading {
     margin: 0 auto;
-    margin-top: 35px;
     width: 1440px;
 
     font-size: 2em;
