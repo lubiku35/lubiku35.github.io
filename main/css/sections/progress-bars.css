@@ -1,9 +1,9 @@
 .skills-container {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .skill-bars{
   padding: 25px 30px;
@@ -141,4 +141,4 @@
 
 .progress-line.php span::after{
     content: "15%";
-  }
+}

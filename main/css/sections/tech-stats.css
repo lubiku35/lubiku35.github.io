@@ -1,7 +1,7 @@
 @import url(./progress-bars.css);
 
 #tech-stats {
-    height: 200vh;
+    height: 160vh;
     padding: 100px 0;
 
     margin: 0 auto;
@@ -49,7 +49,12 @@
 }
 
 #tech-stats img {
-    margin-top: 200px;
+    margin-top: 25px;
+}
+
+
+#tech-stats #github-activity {
+    margin-top: 50px;
 }
 
 .tech-stats-heading h3{
@@ -62,4 +67,12 @@
     text-transform: uppercase;
 
     font-weight: 300;
+}
+
+.stats-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 35px;
 }

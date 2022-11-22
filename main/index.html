@@ -11,151 +11,196 @@
 
 </head>
 <body>
-    <header class="container" id="landing-page">
-        <nav id="main-navigation">
-            <ul>
-                <li class="nav-bar-item"><a href="#projects">projects</a></li>
-                <li class="nav-bar-item"><a href="#about">who am i</a></li>
-                <li class="nav-bar-item"><a href="#blog">blog</a></li>
-                <li class="nav-bar-item"><a href="#tech-stats">tech & stats</a></li>
-                <li class="nav-bar-item"><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-        <div class="squares-parent">
-            <div class="square1"></div>
-            <div class="square2"></div>
-            <div class="square3"></div>
-        </div> 
-        <div class="landing-content-wrapper">
-            <img src="../assets/svgs/LOGO.svg" alt="Motosicky Lubos Logo">
-            <h1 id="main-heading">lubos motosicky</h1>
-            <hr id="horizontal-line-landing">
+  <header class="container" id="landing-page">
+      <nav id="main-navigation">
+          <ul>
+              <li class="nav-bar-item"><a href="#projects">projects</a></li>
+              <li class="nav-bar-item"><a href="#about">who am i</a></li>
+              <li class="nav-bar-item"><a href="./blog.html">blog</a></li>
+              <li class="nav-bar-item"><a href="#tech-stats">tech & stats</a></li>
+              <li class="nav-bar-item"><a href="#contact">contact</a></li>
+          </ul>
+      </nav>
+      <div class="squares-parent">
+          <div class="square1"></div>
+          <div class="square2"></div>
+          <div class="square3"></div>
+      </div> 
+      <div class="landing-content-wrapper">
+          <img src="../assets/svgs/LOGO.svg" alt="Motosicky Lubos Logo">
+          <h1 id="main-heading">lubos motosicky</h1>
+          <hr id="horizontal-line-landing">
+      </div>
+
+  </header>
+
+  <main class="container" id="about">
+
+      <div class="about-heading">
+          <h2><span>who</span> am i ?</h2>
+          <hr>
+      </div>
+
+      <p id="interests"><span>python</span> - <span>cybersecurity</span> - <span>coding</span> - <span>blockchain</span> - <span>vr</span> - <span>hacking</span> - <span>javascript</span> - <span>art</span> - <span>scripting</span> - <span>bitcoin</span> - <span>ctf</span> - <span>cryptography</span> - <span>design</span> - <span>futurism</span></p>
+
+      <div class="about-me">
+          <div class="about-caption">
+              <p>My name is <span>Ľuboslav Motošický</span>, currently located in Czech Republic - Prague</p>
+              <p>21 years old, student of <span>software engineering</span> on ČVUT FEL Software Engineering and Technologies</p>
+              <p>Working as a <span>Junior IT Security Specialist</span> specialized in Cybersecurity</p>
+              <div class="social-icons">
+                  <a href="#"><img src="../assets/icons/icons8-codewars-50.svg" alt="codewars link" srcset=""></a>
+                  <a href="#"><img src="../assets/icons/icons8-github-50.svg" alt="github link" srcset=""></a>
+                  <a href="#"><img src="../assets/icons/icons8-linkedin-circled-50.svg" alt="linkedin link" srcset=""></a>
+                  <a href="#"><img src="../assets/icons/icons8-youtube-50.svg" alt="youtube link" srcset=""></a>
+              </div>
+              <a href="#tech-stats"id="continue-to-stats">see <span>more</span></a>
+          </div>
+          <img src="../assets/imgs/me.png" alt="me" sizes="" srcset="">
+      </div>
+
+
+
+
+  </main>
+
+  <section class="container" id="tech-stats">
+
+      <div class="tech-stats-heading">
+          <h2>technologies <span>and</span> stats.</h2>
+          <hr>
+      </div>
+
+      <div class="tech-stats-heading">
+          <h3>character <span>attributes</span></h3>
+      </div>
+
+      <div class="skills-container">
+          <div class="skill-bars">
+
+              <div class="bar">
+                <div class="info">
+                  <span>python</span>
+                </div>
+                <div class="progress-line python">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>javascript</span>
+                </div>
+                <div class="progress-line javascript">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>html</span>
+                </div>
+                <div class="progress-line html">
+                  <span></span>
+                </div>
+              </div>
+
+          </div>
+          <div class="skill-bars">
+
+              <div class="bar">
+                <div class="info">
+                  <span>css</span>
+                </div>
+                <div class="progress-line css">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>java</span>
+                </div>
+                <div class="progress-line java">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>php</span>
+                </div>
+                <div class="progress-line php">
+                  <span></span>
+                </div>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="tech-stats-heading">
+          <h3>personal <span>stats</span></h3>
+      </div>
+
+
+      
+      <img id="github-activity" src="https://activity-graph.herokuapp.com/graph?username=lubiku35&theme=github-dark" alt="graph of contributions on github" srcset="">
+      
+      <div class="stats-wrapper">
+        <img id="github-stats" src="https://github-readme-streak-stats.herokuapp.com?user=lubiku35&theme=sea-dark" alt="" srcset="">
+      
+        <img id="codewars-activity" src="https://github-readme-codewars-stats.herokuapp.com/api/?username=lubiku35&badge&colormode=dark_mode" alt="" srcset="">
+      </div>
+
+  </section>
+
+  <section id="projects">
+    <div class='main-content'>
+      <div class="wrapper">
+        <div class="projects-heading">
+          <h2>Current <span>Projects</span>.</h2>
+          <hr>
         </div>
-
-    </header>
-
-    <main class="container" id="about">
-
-        <div class="about-heading">
-            <h2><span>who</span> am i ?</h2>
-            <hr>
+        <div class="latest-grid">
+          <div class="latest-grid-item one">
+            <img src="https://source.unsplash.com/collection/887284/1600x900">
+            <h2>Python Kit</h2>
+            <h3>1/2/2022</h3>
+            <hr />
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis impedit illo velit tempore repudiandae officia.
+            </p>
+            <button>Read More</button>
+          </div>
+          <div class="latest-grid-item">
+            <img src="https://source.unsplash.com/collection/887284/1600x909">
+            <h2>Personal Website</h2>
+            <h3>1/2/2022</h3>
+            <hr />
+            <p class="description"> 
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis impedit illo velit tempore repudiandae officia.
+            </p>
+            <button>Read More</button>
+          </div>
+          <div class="latest-grid-item">
+            <img src="https://source.unsplash.com/collection/887284/1600x907">
+            <h2>Cybersecurity Blog</h2>
+            <h3>1/2/2022</h3>
+            <hr />
+            <p class="description"> 
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis impedit illo velit tempore repudiandae officia.
+            </p>
+            <button>Read More</button>
+          </div>
+          
         </div>
+      </div>
+    </div>
+  </section>
 
-        <p id="interests"><span>python</span> - <span>cybersecurity</span> - <span>coding</span> - <span>blockchain</span> - <span>vr</span> - <span>hacking</span> - <span>javascript</span> - <span>art</span> - <span>scripting</span> - <span>bitcoin</span> - <span>ctf</span> - <span>cryptography</span> - <span>design</span> - <span>futurism</span></p>
+  <footer class="site-footer">
 
-        <div class="about-me">
-            <div class="about-caption">
-                <p>My name is <span>Ľuboslav Motošický</span>, currently located in Czech Republic - Prague</p>
-                <p>21 years old, student of <span>software engineering</span> on ČVUT FEL Software Engineering and Technologies</p>
-                <p>Working as a <span>Junior IT Security Specialist</span> specialized in Cybersecurity</p>
-                <div class="social-icons">
-                    <a href="#"><img src="../assets/icons/icons8-codewars-50.svg" alt="codewars link" srcset=""></a>
-                    <a href="#"><img src="../assets/icons/icons8-github-50.svg" alt="github link" srcset=""></a>
-                    <a href="#"><img src="../assets/icons/icons8-linkedin-circled-50.svg" alt="linkedin link" srcset=""></a>
-                    <a href="#"><img src="../assets/icons/icons8-youtube-50.svg" alt="youtube link" srcset=""></a>
-                </div>
-                <a href="#tech-stats"id="continue-to-stats">see <span>more</span></a>
-            </div>
-            <img src="../assets/imgs/me.png" alt="me" sizes="" srcset="">
-        </div>
-
-
-
-
-    </main>
-
-    <section class="container" id="tech-stats">
-        
-        <div class="tech-stats-heading">
-            <h2>technologies <span>and</span> stats.</h2>
-            <hr>
-        </div>
-
-        <div class="tech-stats-heading">
-            <h3>character <span>attributes</span></h3>
-        </div>
-
-        <div class="skills-container">
-            <div class="skill-bars">
-
-                <div class="bar">
-                  <div class="info">
-                    <span>python</span>
-                  </div>
-                  <div class="progress-line python">
-                    <span></span>
-                  </div>
-                </div>
-
-                <div class="bar">
-                  <div class="info">
-                    <span>javascript</span>
-                  </div>
-                  <div class="progress-line javascript">
-                    <span></span>
-                  </div>
-                </div>
-
-                <div class="bar">
-                  <div class="info">
-                    <span>html</span>
-                  </div>
-                  <div class="progress-line html">
-                    <span></span>
-                  </div>
-                </div>
-
-            </div>
-            <div class="skill-bars">
-
-                <div class="bar">
-                  <div class="info">
-                    <span>css</span>
-                  </div>
-                  <div class="progress-line css">
-                    <span></span>
-                  </div>
-                </div>
-
-                <div class="bar">
-                  <div class="info">
-                    <span>java</span>
-                  </div>
-                  <div class="progress-line java">
-                    <span></span>
-                  </div>
-                </div>
-
-                <div class="bar">
-                  <div class="info">
-                    <span>php</span>
-                  </div>
-                  <div class="progress-line php">
-                    <span></span>
-                  </div>
-                </div>
-
-            </div>
-        </div>
-        <img src="https://activity-graph.herokuapp.com/graph?username=lubiku35&theme=github-dark" alt="graph of contributions on github" srcset="">
-    </section>
-
-    <section id="projects">
-
-
-    </section>
-
-    <section id="blog">
-
-    </section>
-
-    <section id="contact">
-
-    </section>
-
-    <footer id="footer">
-
-    </footer>
+  </footer>
 
 </body>
 </html>
