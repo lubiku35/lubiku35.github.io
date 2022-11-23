@@ -1,43 +1,40 @@
-
-#about {
-    height: 90vh;
-
-    margin: 0 auto;
-    padding: 100px 0 ;
-    width: 1440px;
-    max-width: 1440px;
-
+#who-is-lubiku {
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
+
+    padding: 100px 50px;
+    color: #FFF;
+
 }
 
-#about .about-heading {
-    margin: 0 auto;
+#who-is-lubiku .heading {
     width: 1200px;
-
+    margin: 0 auto;
     font-size: 2em;
     text-transform: uppercase;
+    font-weight: 400;
+    color: #FFF;
 }
 
-#about .about-heading h2 {
-    font-weight: 300;
+#who-is-lubiku h2 span {
+    font-family: var(--goldman-font);
+    color: #B50000;
+    font-weight: 400;
 }
 
-#about .about-heading hr {
+#who-is-lubiku  hr{
     margin-top: 15px;
-    width: 300px;
 
+    width: 600px;
     height: 1px;
     
     background: linear-gradient(270deg, rgb(211, 211, 211) 52.52%, rgba(255, 255, 255, 0) 104.99%);
     border: none;
-}
-
-#about h2 span {
-    color: #00B2FF;
-    font-weight: 400;
 }
 
 #interests {
@@ -45,17 +42,18 @@
     margin-top: 15px;
     width: 1200px;
     font-size: .8em;
-    color: #00b3ff5c;
+    color: #b5000075;
     letter-spacing: .26em;
     line-height: 1.3em;
+    font-family: var(--source-code-font);
 }
 
 #interests span:hover {
     cursor: pointer;
-    color: #00B2FF;
+    color: #B50000;
 }
 
-#about .about-me {
+#who-is-lubiku .who-is-lubiku-me {
     margin: 0 auto;
     margin-top: 45px;
     width: 1200px;
@@ -68,21 +66,23 @@
     grid-row-gap: 0px; 
 }
 
-#about .about-caption p {
+#who-is-lubiku .who-is-lubiku-caption p {
     font-size: 1.2em;    
     line-height: 1.8em;
+    font-family: var(--source-code-font);
 }
 
-#about .about-caption p span {
-    color: #00B2FF;
+#who-is-lubiku .who-is-lubiku-caption p span {
+    color: #B50000;
+    font-family: var(--source-code-font);
 }
 
-#about img {
+#who-is-lubiku img {
     width: 400px;   
     align-self: left;
 }
 
-#about .social-icons {
+#who-is-lubiku .social-icons {
     margin: 0 auto;
     margin-top: 25px;
 
@@ -93,29 +93,35 @@
     gap: 35px
 }
 
-#about .social-icons a img{
+#who-is-lubiku .social-icons a img{
     width: 35px;
     opacity: .3;
 }
 
-#about .social-icons a img:focus{
+#who-is-lubiku .social-icons a img:focus{
     opacity: 1;
     transition: opacity 1s ease-out;
 }
 
-#about .social-icons a img:hover{
+#who-is-lubiku .social-icons a img:hover{
     opacity: 1;
     transition: opacity .5s ease-out;
 }
 
+#codewars-activity {
+    display: inline-block;
+    margin-top: 20px;
+}
+
 #continue-to-stats {
+    margin: 0 auto;
     display: block;
 
-    margin-top: 30px;
+    margin-top: 155px;
     width: 300px;
-
-    padding: 15px 10px 15px 22px;
-    border: 1px solid #00B2FF;
+    color: #dadada8d;
+    font-family: var(--goldman-font);
+    font-size: 1.5em;
 
     text-align: center;
     font-weight: 300;
@@ -128,11 +134,7 @@
     letter-spacing: 12px;
 }
 
-
-#continue-to-stats span {
-    color: #00B2FF;
-}
-
 #continue-to-stats:hover {
-    border: 1px solid #FFF;
+    color: #B50000;
 }
+
