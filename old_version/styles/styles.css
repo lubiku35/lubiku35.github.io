@@ -19,8 +19,6 @@
 @import url(./footer.css);
 
 
-
-
 :root {
     /* ======== FONTS ======== */
     --montserrat-font: 'Montserrat', monospace;
@@ -31,7 +29,7 @@
 
     /* ======== PROJECT COLORS ======== */
     --primary-dark-theme: radial-gradient(391.4% 391.4% at 51.35% 350.92%, #ad0000 0%, #000000 100%);
-    --secondary-dark-theme: #121212;
+    --secondary-dark-theme: #07070d;
     --primary-light-theme: #fff;
 }
 
@@ -51,15 +49,10 @@ html {
 
 body {
     margin: 0 auto;
-    min-height: 100vh;
-    width: 1920px;
     max-width: 1440px;
     min-width: 320px;
 
     background: var(--secondary-dark-theme);
-    background-position: center center;
-    background-size: cover;
-    background-clip: border-box;
 
     border-left: 1px solid #4747474a;
     border-right: 1px solid #4747474a;

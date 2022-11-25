@@ -98,3 +98,23 @@
     height: 135px;
     width: 650px;
 }
+
+button {
+    display: inline-block;
+    align-self: flex-start;
+    cursor: pointer;
+    padding: 15px 25px;
+    background: rgba(47, 47, 47, 0.35);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(0, 0, 0, 0.72);
+    font-family: var(--source-code-font);
+    color: #fff;
+}
+
+button:hover {
+    border: 1px solid rgba(255, 0, 0, 0.72);
+
+}
