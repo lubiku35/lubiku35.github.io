@@ -102,6 +102,10 @@
         justify-content: space-around;
 
     }
+
+    #main-section {
+        height: 160vh;
+    }
 }
 
 @media screen and (max-width:780px) {
@@ -111,6 +115,10 @@
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
+    }
+
+    #main-section {
+        height: 150vh;
     }
 
     #main-section #main-content .main-content-left {
@@ -139,7 +147,8 @@
 
 @media screen and (max-width:660px) {
     #main-section {
-        padding: 0;
+        padding: 10px;
+
     }
 
 }

@@ -1,0 +1,212 @@
+#profile-stats-section {
+    margin: 0 auto;
+
+    height: 100vh;
+    width: 100%;
+    max-width: calc(100% - 20px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 100px 20px;
+}
+
+#profile-stats-section h2 {
+    text-align: center;
+    font-size: 2.6em;
+}
+
+#profile-stats-section img {
+    margin-top: 50px;
+    width: 70%;
+}
+
+#profile-stats-section .skills-container {
+    margin-top: 35px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    width: 90%;
+}
+
+#profile-stats-section .skill-bars{
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+#profile-stats-section .skill-bars .bar{
+    margin: 20px 0;
+}
+
+#profile-stats-section .skill-bars .bar:first-child{
+    margin-top: 0px;
+}
+
+#profile-stats-section .skill-bars .bar .info{
+    margin-bottom: 5px;
+}
+
+#profile-stats-section .skill-bars .bar .info span{
+    font-weight: 400;
+    font-size: 17px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+    color: #FFF;
+    font-family: var(--goldman-font);
+}
+
+@keyframes showText {
+100%{
+    opacity: 1;
+}
+}
+
+#profile-stats-section .skill-bars .bar .progress-line{
+    height: 10px;
+    width: 100%;
+    background: #0D0D0D;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+                0 1px rgba(7, 7, 7, 0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+#profile-stats-section .bar .progress-line span{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: var(--red-enchanted-text);
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+#profile-stats-section .bar .progress-line.python span{
+    width: 65%;
+}
+
+#profile-stats-section .bar .progress-line.bash span{
+    width: 39%;
+}
+
+#profile-stats-section .bar .progress-line.sql span{
+    width: 29%;
+}
+
+#profile-stats-section .bar .progress-line.javascript span{
+    width: 40%;
+}
+
+#profile-stats-section .bar .progress-line.html span{
+    width: 85%;
+}
+
+#profile-stats-section .bar .progress-line.css span{
+    width: 60%;
+}
+
+#profile-stats-section .bar .progress-line.java span{
+    width: 26%;
+}
+
+#profile-stats-section .bar .progress-line.php span{
+    width: 15%;
+}
+
+#profile-stats-section .progress-line span::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+#profile-stats-section .progress-line span::after{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+    100%{
+        opacity: 1;
+    }
+}
+
+#profile-stats-section .progress-line.python span::after{
+    content: "65%";
+}
+
+#profile-stats-section .progress-line.bash span::after{
+    content: "39%";
+}
+
+#profile-stats-section .progress-line.sql span::after{
+    content: "29%";
+}
+
+
+#profile-stats-section .progress-line.javascript span::after{
+    content: "40%";
+}
+
+#profile-stats-section .progress-line.html span::after{
+    content: "85%";
+}
+
+#profile-stats-section .progress-line.css span::after{
+    content: "60%";
+}
+
+#profile-stats-section .progress-line.java span::after{
+    content: "26%";
+}
+
+#profile-stats-section .progress-line.php span::after{
+    content: "15%";
+}
+
+@media screen and (max-width:900px) {
+    #profile-stats-section .skills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        width: 90%;
+    }
+
+    #profile-stats-section .skill-bars {
+        width: 80%;
+    }
+}
