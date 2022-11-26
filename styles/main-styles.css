@@ -126,8 +126,7 @@ span.enchanted {
 
 @media screen and (max-width:480px) {
     body {
-        max-width: 520px;
-        width: 480px;
+        width: 100%;
     }
 }
 
