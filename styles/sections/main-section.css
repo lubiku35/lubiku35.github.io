@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 20px;
     grid-row-gap: 0px;
 }
     
@@ -28,10 +28,118 @@
     grid-area: 1 / 1 / 2 / 2; 
 }
 
+#main-section #main-content .main-content-left h2 {
+    font-size: 2.6em;
+}
+
+#main-section #main-content .main-content-left #author-main-description {
+    width: 75%;
+    margin-top: 30px;
+
+    line-height: 22px;
+    word-spacing: 7px;
+    font-size: 1em;
+    font-family: var(--source-code-font);
+}
+
 #main-section #main-content .main-content-right { 
     grid-area: 1 / 2 / 2 / 3; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-section #main-content .main-content-right img {
+    max-width: 80%;
 }
 
 #main-section #main-content .main-content-below { 
-    grid-area: 2 / 1 / 3 / 3; 
+    grid-area: 2 / 1 / 3 / 3;
+
+    margin: 0 auto ;
+    max-width: 80%;
+    margin-top: 55px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-top: .5px solid var(--primary-light-text);
+
+
+    text-align: center;
+    font-family: var(--source-code-font);
+}
+
+#main-section #main-content .main-content-below p {
+    max-width: 70%;
+
+    line-height: 22px;
+    word-spacing: 4px;
+    font-size: 1em;
+}
+
+#continue-to-profile-stats {
+    margin: 0 auto;
+    margin-top: 35px;
+
+    text-align: center;
+    
+    text-transform: uppercase;
+    font-family: var(--goldman-font);
+    font-size: 1.3em;
+}
+
+
+@media screen and (max-width:480px) {
+
+    #main-section #main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+}
+
+@media screen and (max-width:780px) {
+
+    #main-section #main-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    #main-section #main-content .main-content-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    #main-section #main-content .main-content-right img {
+        margin-top: 20px;
+    }
+    
+    #continue-to-profile-stats {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #main-section #main-content .main-content-below p {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    #main-section {
+        padding: 0;
+    }
+
 }
