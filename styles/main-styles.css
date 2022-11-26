@@ -63,7 +63,7 @@ body {
     min-width: 320px;
     min-height: 100vh;
     max-width: 1920px;
-    width: 1440px;
+
 
     margin: 0 auto;
 
@@ -115,10 +115,20 @@ span.enchanted {
 
 .social-media-link:hover, .social-media-link:focus {
     opacity: 1;
-} 
+}
 
+@media screen and (min-width:1440px) {
+    body {
+        width: 1440px;
+    }
+}
 
-
+@media screen and (max-width:480px) {
+    body {
+        max-width: 520px;
+        width: 480px;
+    }
+}
 
 
 

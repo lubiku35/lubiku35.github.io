@@ -2,7 +2,8 @@
     margin: 0 auto;
 
     height: 100vh;
-    max-width: 1440px;
+    width: 100%;
+    max-width: calc(100% - 20px);
 
     display: flex;
     flex-direction: column;
@@ -35,7 +36,7 @@
 }
 
 #landing-section #header-content {
-    margin-top: 125px;
+    margin-top: 115px;
 
     display: flex;
     flex-direction: column;
@@ -64,19 +65,12 @@
     align-items: center;
     justify-content: center;
 
-    width: 1440px;
+    width: 100%;
+    max-width: calc(100% - 20px);
 
     font-family: var(--goldman-font);
 }
 
-#landing-footer-first-container-horizontal-line, #landing-footer-second-container-horizontal-line {
-    border: var(--primary-light-text);
-}
-
-#landing-footer-first-container-horizontal-line {
-    width: 800px;
-    height: 1px;
-}
 
 #landing-section .landing-footer-wrapper .landing-footer-first-container {
     display: flex;
@@ -85,7 +79,7 @@
 
     padding: 8px;
     width: 70%;
-    border-bottom: .7px solid var(--primary-light-text);
+    border-bottom: .5px solid var(--primary-light-text);
 }
 
 #landing-section .landing-footer-wrapper .landing-footer-second-container {
@@ -96,7 +90,7 @@
     justify-content: space-between;
 
     width: 80%;
-    border-bottom: .7px solid var(--primary-light-text);
+    border-bottom: .5px solid var(--primary-light-text);
 }
 
 #landing-section .landing-footer-wrapper .landing-footer-second-container .social-links{
@@ -111,13 +105,64 @@
 
 #continue-to-main {
     margin: 0 auto;
-    width: 60%;
-
-    position: absolute;
-    display: inline-block;
-
+    margin-top: 35px;   
+    text-transform: uppercase;
     text-align: center;
     font-size: 1.3em;
+}
+
+@media screen and (max-width:660px) {
+    #landing-section .navigation .navigation-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    #landing-section {
+        max-width: 480px;
+    }
+
+    #landing-section .landing-footer-wrapper {
+        max-width: 480px;
+    }
+
+    #landing-section .navigation .navigation-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #landing-section #header-content img {
+        margin-top: 15px;
+        width: 100px;
+    }
+
+    #landing-section #header-content h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #landing-section .landing-footer-wrapper {
+        margin-top: 50px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        width: 100%;
+    
+        font-family: var(--goldman-font);
+    }   
 }
 
 
