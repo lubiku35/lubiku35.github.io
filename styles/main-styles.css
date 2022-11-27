@@ -21,6 +21,11 @@
 @import url(./sections/projects-section.css);
 @import url(./sections/footer-section.css);
 
+/* CSS FOR OTHER PARTS OF WEB */
+@import url(./contact-webpage-styles/contact-webpage.css);
+@import url(./blog-webpage-styles/blog-webpage.css);
+
+
 
 /*=========== ROOT ===========*/
 :root {
