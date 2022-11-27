@@ -19,12 +19,35 @@
     <title>CONTACT LUBIKU</title>
 </head>
 <body>
-    <section id="contact-page-navigation-section">
-
+    <section id="back-to-main-web">
+        <header id="custom-header-for-other-pages"><h1><span class="enchanted">contact</span> lubiku</h1></header>
+        <nav class="custom-navigation">
+            <ul>
+                <li><a href="./index.html" id="back-to-main-link">back to main</a></li>
+            </ul>
+        </nav>
     </section>
 
     <section id="contact-page-main-section">
-        
+        <form action="">
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name">Name</label>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="subject" required>
+                <label for="subject">Subject</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="10" required></textarea>
+                <label for="message">Message</label>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
     </section>
 
     <section id="footer-section" class="container">

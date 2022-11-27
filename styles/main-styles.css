@@ -20,6 +20,7 @@
 @import url(./sections/profile-stats-section.css);
 @import url(./sections/projects-section.css);
 @import url(./sections/footer-section.css);
+@import url(./sections/back-to-main-web.css);
 
 /* CSS FOR OTHER PARTS OF WEB */
 @import url(./contact-webpage-styles/contact-webpage.css);
