@@ -1,0 +1,151 @@
+
+#personal-website-landing-section {
+    margin: 0 auto;
+
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+}
+
+#personal-website-landing-section .navigation{
+    padding: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#personal-website-landing-section .navigation .navigation-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 135px;
+}
+
+#personal-website-landing-section .navigation .navigation-list li a {
+    text-transform: uppercase;
+
+    font-size: .86em;
+}
+
+#personal-website-landing-section #header-content {
+    margin-top: 115px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+#personal-website-landing-section #header-content h1  {
+    font-size: 2em;
+}
+
+#personal-website-landing-section #header-content h1 span {
+    font-size: 2em;
+}
+
+
+#personal-website-landing-section #project-navigation {
+    margin-top: 100px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+
+    font-size: 1.3em;
+    font-family: var(--goldman-font);
+}
+
+
+#personal-website-landing-section #project-navigation  li a {
+    opacity: .3;
+}
+
+#personal-website-landing-section #project-navigation  li a:focus, #personal-website-landing-section #project-navigation  li a:hover {
+    opacity: 1;
+}
+
+#personal-website-landing-section a {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#personal-website-landing-section a img {
+    width: 50px;
+    opacity: .3;
+}
+
+#personal-website-landing-section a img:hover ,#personal-website-landing-section a img:focus  {
+    opacity: 1;
+}
+
+
+@media screen and (max-width:660px) {
+    #personal-website-landing-section .navigation .navigation-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #personal-website-landing-section #header-content h1 {
+        margin-top: 10px;
+        font-size: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #personal-website-landing-section #header-content {
+        margin-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    #personal-website-landing-section {
+        width: 100%;
+    }
+
+
+    #personal-website-landing-section .navigation .navigation-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #personal-website-landing-section #header-content h1 {
+        margin-top: 10px;
+        font-size: 1em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #personal-website-landing-section #header-content {
+        margin-top: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
