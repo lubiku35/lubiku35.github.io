@@ -82,6 +82,11 @@
 
 #cyber-python-toolkit-landing-section a img {
     width: 50px;
+    opacity: .3;
+}
+
+#cyber-python-toolkit-landing-section a img:hover ,#cyber-python-toolkit-landing-section a img:focus  {
+    opacity: 1;
 }
 
 
