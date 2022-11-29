@@ -54,7 +54,7 @@
 
 
 #cyber-python-toolkit-landing-section #project-navigation {
-    margin-top: 70px;
+    margin-top: 100px;
 
     display: flex;
     align-items: center;
@@ -73,5 +73,14 @@
 
 #cyber-python-toolkit-landing-section #project-navigation  li a:focus, #cyber-python-toolkit-landing-section #project-navigation  li a:hover {
     opacity: 1;
+}
+
+#cyber-python-toolkit-landing-section a {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#cyber-python-toolkit-landing-section a img {
+    width: 50px;
 }
 
