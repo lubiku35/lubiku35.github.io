@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+    max-width: 100%;
+}
 
 #project-cvutness-landing-section {
     margin: 0 auto;
@@ -9,6 +13,8 @@
     flex-direction: column;
     
     padding: 20px;
+
+    background: url(../../../../assets/cvutness/cvutness_flag_bg.png);
 }
 
 #project-cvutness-landing-section .navigation{
@@ -45,7 +51,7 @@
 }
 
 #project-cvutness-landing-section #header-content h1  {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 #project-cvutness-landing-section #header-content h1 span {
@@ -68,7 +74,7 @@
 
 
 #project-cvutness-landing-section #project-navigation  li a {
-    opacity: .3;
+    opacity: .5;
 }
 
 #project-cvutness-landing-section #project-navigation  li a:focus, #project-cvutness-landing-section #project-navigation  li a:hover {
@@ -82,7 +88,7 @@
 
 #project-cvutness-landing-section a img {
     width: 50px;
-    opacity: .3;
+    opacity: .5;
 }
 
 #project-cvutness-landing-section a img:hover ,#project-cvutness-landing-section a img:focus  {
