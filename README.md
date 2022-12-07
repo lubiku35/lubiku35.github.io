@@ -11,14 +11,23 @@
 
 ### Media Queries
 
+---
+
 Website is fully responsive for three main media types.
+
+<br>
 
 #### Desktop Devices
 
+<br>
 
 Desktop devices with **minimum **width**** of **1200px** and **maximum width** of **100vw** which stands for 100% of the width of corresponding device  
 
+<br>
+
 #### Tablet Devices
+
+<br>
 
 Tablet devices are quite a tough topic cause we can include here various currently using classifications, from common tablets, portrait iPads, e-readers, landscape tablets iPads and more.
 
@@ -30,9 +39,15 @@ Many internert resources says the minimum width of tablets is aroud 550px and ma
 
 Also devices like notebooks are covered as a Desktop device.
 
+<br>
+
 #### Mobile Devices 
+
+<br>
 
 Probably most used devices nowadays so i covered mobile devices to 2 main specifications as tablets:
 
 I should cover all mobile phones by adding a **minimum width** of 320px but not at all. Also there are 'bigger' phones which needs an independent category with **minimum width** of 480px.
+
+<br>
 
