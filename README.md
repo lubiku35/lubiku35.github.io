@@ -3,25 +3,25 @@
 
 ## Website Structure
 
-### Layouting Methods
+## Layouting Methods
 
-#### Flexbox Layout
+### Flexbox Layout
 
-#### Grid Layout
+### Grid Layout
 
-### Media Queries
+## Media Queries
 
 Website is fully responsive for three main media types.
 
 <br>
 
-#### Desktop Devices
+### Desktop Devices
 
 Desktop devices with **minimum **width**** of **1200px** and **maximum width** of **100vw** which stands for 100% of the width of corresponding device  
 
 <br>
 
-#### Tablet Devices
+### Tablet Devices
 
 Tablet devices are quite a tough topic cause we can include here various currently using classifications, from common tablets, portrait iPads, e-readers, landscape tablets iPads and more.
 
@@ -35,7 +35,7 @@ Also devices like notebooks are covered as a Desktop device.
 
 <br>
 
-#### Mobile Devices 
+### Mobile Devices 
 
 Probably most used devices nowadays so i covered mobile devices to 2 main specifications as tablets:
 
