@@ -1,0 +1,15 @@
+#landing-page {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url(../../assets/images/loop_main.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    
+
+    align-items: center;
+    justify-content: center;
+}
+
+    

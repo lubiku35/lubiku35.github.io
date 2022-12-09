@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'airntquantum';
+    src: url('airntquantum-jrmra-webfont.woff2') format('woff2'),
+         url('airntquantum-jrmra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'airntregular';
+    src: url('airnt-qzey2-webfont.woff2') format('woff2'),
+         url('airnt-qzey2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'airntbold';
+    src: url('airntbold-vgo0z-webfont.woff2') format('woff2'),
+         url('airntbold-vgo0z-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

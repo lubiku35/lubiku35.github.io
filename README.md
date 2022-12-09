@@ -3,6 +3,40 @@
 
 ## Website Structure
 
+- MAIN | INDEX
+  
+  - About Author [100vh]
+  
+  - Join My Community [25vh]   
+  
+  - Interests / Technologies / ... [100vh] 
+  
+  - Interests / Technologies / ... [100vh]
+  
+  - Read A Blog Or Follow Me [25vh]
+
+  - Current Projects List [100vh] 
+
+    -  001 Cyberlubiku Website 
+    
+    -  002 Personal Blog 
+    
+    -  003 School Project CVUTNESS 
+    
+    -  004 Cybersecurity Python Toolkit 
+  
+    -  005  
+    
+    -  006 Branding 
+
+    -  007 Alpha Courses 
+
+  - Footer [20vh] 
+
+## Website Sections
+
+## Available Themes
+
 ## Layouting Methods
 
 ### Flexbox Layout
@@ -12,8 +46,6 @@
 ## Media Queries
 
 Website is fully responsive for three main media types.
-
-<br>
 
 ### Desktop Devices
 
@@ -42,4 +74,13 @@ Probably most used devices nowadays so i covered mobile devices to 2 main specif
 I should cover all mobile phones by adding a **minimum width** of 320px but not at all. Also there are 'bigger' phones which needs an independent category with **minimum width** of 480px.
 
 <br>
+
+## Javascript
+
+### 3rd Party Javascript
+
+## Server Side
+
+## Database
+
 
