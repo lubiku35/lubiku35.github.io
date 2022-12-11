@@ -18,6 +18,7 @@
 
 /*========== LINKED CSS ==========*/
 @import url(./sections/landing.css);
+@import url(./sections/main.css);
 
 /*========== ROOT VARIABLES ==========*/
 :root {
@@ -29,13 +30,14 @@
 
     /*=== Theme Colors ===*/
     --dark-theme: linear-gradient(to right, #0a0a0a, #0a0a0a);
-    --light-theme:linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --light-theme:linear-gradient(to right, #ffffff, #c2c4c2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     --silver-theme: linear-gradient(177.18deg, #969696 0%, #232323 100%);;
     --kali-theme: linear-gradient(177.18deg, #3765DE 0%, #429BBE 97.96%);;
     --purp-theme: linear-gradient(177.18deg, #5d02b9 0%, #020c27 100%);;
 
     /*=== Colors ===*/
     /*=== Borders ===*/
+    --primary-border: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #3765DE 53.14%, rgba(255, 255, 255, 0) 100.02%);
     /*=== Font Families ===*/
 
 }
@@ -47,6 +49,7 @@ html {
     scroll-behavior: smooth;
 
     color: #ffffff;
+    font-family: var(--font-source-code), var(--font-montserrat), monospace;
 }
 
 body {
@@ -93,8 +96,10 @@ h4 {
 
 hr {
     box-sizing: content-box;
-    height: 0;
-
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: var(--primary-border);
     overflow: visible;
 }
 
@@ -109,6 +114,9 @@ p {
 
 a {
     font-size: 1.1em;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: var(--font-goldman);
 }
 
 .container {
@@ -123,10 +131,20 @@ a {
     justify-content: flex-start;
 }
 
-.enchanted {
-    /**/
+ul.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
+span.enchanted {
+    color: #3765DE;
+}
+
+.image-link img {
+    width: 40%;
+}
 
 /*========== PRIMARY MEDIA QUERIES ==========*/
 

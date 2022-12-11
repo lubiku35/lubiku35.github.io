@@ -9,7 +9,50 @@
     
 
     align-items: center;
+    justify-content: flex-start;
+}
+
+#landing-page #landing-navigation {
+    padding: 20px 15px 10px 15px;
+    width: 100%;
+    max-width: 1440px;
+}
+
+#landing-page hr {
+    max-width: 1440px;
+    height: 1px;
+}
+
+#landing-page #landing-navigation ul.navigation {
+    gap: 150px;
+}
+
+#landing-page #landing-navigation ul.navigation li a {
+    font-size: .9em;
+}
+
+#landing-page #landing-social-navigation {
+    width: 100%;
+    max-width: 1440px;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+#landing-page #landing-header {
+    height: 100%;
+    text-align: center;
+
+    display: flex;
     justify-content: center;
+    align-items: center;
+} 
+
+#landing-page #landing-header #website-heading {
+    margin-bottom: 10px;
+}
+
+#landing-page .image-link {
+    margin-bottom: 25px;
 }
 
     
