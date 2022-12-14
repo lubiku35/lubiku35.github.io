@@ -1,0 +1,62 @@
+#landing-section {
+    /**/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-image: url(../../../assets/images/landing-section/landing_construction.svg);
+    background-position: center center, center center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+#landing-section #main-navigation {
+    width: 100%;
+} 
+
+#landing-section #main-navigation #main-navigation-wrapper {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 150px;
+}
+
+#under-nav-hr {
+    margin-top: 30px;
+
+    width: 100%;
+    max-width: 1440px;
+}
+
+#landing-section #project-heading-container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+#landing-section #project-heading-container  #project-heading {
+    margin-top: 100px;
+}
+
+#landing-section #project-heading-container #project-description {
+    font-size: 1em;
+    margin-top: 15px;
+    letter-spacing: 15px;
+}
+
+#landing-section .landing-bottom-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+
+#landing-section .landing-bottom-container p {
+    font-size: 1.2em;
+}
