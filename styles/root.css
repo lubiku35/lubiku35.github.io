@@ -1,0 +1,90 @@
+
+/* ----- FONTS ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+
+/* ----- ROOT ----- */
+
+:root {
+    --dark-mode: #161616;
+    --light-mode: #FFFFFF;
+
+    --hacking-green: #00C460;
+}
+
+/* ----- GLOBAL ----- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100vw;
+
+    background-color: var(--light-mode);
+    color: var(--dark-mode);
+
+    font-family: 'Source Code Pro';
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Montserrat';
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: var(--dark-mode);
+    text-decoration: none;
+}
+
+a.nav-link {
+   font-size: .95em;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+
+a.nav-link:hover {
+    color: var(--hacking-green);
+}
+
+/* ----- HEADER NAVIGATION ----- */
+
+#header-navigation {
+    margin: 0 auto;
+    width: 95%;
+
+    min-height: 10vh;
+    max-height: 15vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#website-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 100%;
+    width: 90%;
+}
+
+#website-navigation ul {
+    display: flex;
+    gap: 50px;
+}
+
