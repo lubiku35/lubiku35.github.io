@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ĽUBOSLAV MOTOŠICKÝ</title>
-    <link rel="stylesheet" href="./styles/root.css">
+    <link rel="stylesheet" href="./styles/root.css" type="text/css">
     <script src="./scripts/root.js"></script>
 </head>
 <body class="light-mode">
@@ -13,13 +13,13 @@
         <nav id="website-navigation">
             <ul>
                 <li>
-                    <a class="nav-link" href="./contact.html">CONTACT ME</a>
-                </li>
-                <li>
                     <a class="nav-link" href="#profile">PROFILE</a>
                 </li>
                 <li>
                     <a class="nav-link" href="#projects">PROJECTS</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./contact.html">CONTACT ME</a>
                 </li>
             </ul>
             <button id="mode-changer" class="light-mode" onclick="changeMode()">GO DARK</button>
@@ -28,32 +28,37 @@
 
     <section id="profile">
         <div class="main-profile">
-            <img src="" alt="">
-            <h1>ĽUBOSLAV MOTOŠICKÝ</h1>
-            <p><span>></span> 22 years old student of software engineering, information technologies and cyber security on CTU - FEL, currently working for MyCom Solutions as a junior IT Security Specialist, in addition to others, a sportsman, computer gamer and hacker.</p>
+            <div class="profile-image">
+                <img src="./images/profile_picture.jpg" alt="photo of luboslav motosicky" width="350">    
+            </div>
+            <div class="profile-text-content">
+                <h1 id="name"><span id="first-name">ĽUBOSLAV</span> MOTOŠICKÝ</h1>
+                <p class="about-me-description">> 22 years old student of software engineering, information technologies and cyber security on CTU - FEL, currently working for MyCom Solutions as a junior IT Security Specialist, in addition to others, a sportsman, computer gamer and hacker.</p>
+                <p class="about-me-description">> Passion for knowledge, discovering new stuff, solving problems or overcoming seemingly insurmountable obstacles are my specs.</p>
+            </div>
         </div>
-        <p id="description"><span>></span> Passion for knowledge, discovering new stuff, solving problems or overcoming seemingly insurmountable obstacles are my specs.</p>
+        
     </section>
 
     <section id="techstack">
         <section id="tags">
-            <p>Python</p>
-            <p>Database Systems</p>
-            <p>PHP</p>
-            <p>Ethical Hacking</p>
-            <p>Networks</p>
-            <p>Linux</p>
-            <p>Java</p>
-            <p>Software Testing</p>
-            <p>SQLi</p>
-            <p>Phishing</p>
-            <p>JavaScript</p>
-            <p>OSINT</p>
-            <p>Bash Scripting</p>
-            <p>CyberSecurity</p>
-            <p>Codewars</p>
-            <p>C / C++</p>
-            <p>Business Requirements</p>
+            <p class="techelement">Python</p>
+            <p class="techelement">Database Systems</p>
+            <p class="techelement">PHP</p>
+            <p class="techelement">Ethical Hacking</p>
+            <p class="techelement">Networks</p>
+            <p class="techelement">Linux</p>
+            <p class="techelement">Java</p>
+            <p class="techelement">Software Testing</p>
+            <p class="techelement">SQLi</p>
+            <p class="techelement">Phishing</p>
+            <p class="techelement">JavaScript</p>
+            <p class="techelement">OSINT</p>
+            <p class="techelement">Bash Scripting</p>
+            <p class="techelement">CyberSecurity</p>
+            <p class="techelement">Codewars</p>
+            <p class="techelement">C / C++</p>
+            <p class="techelement">Business Requirements</p>
         </section>
         <a href="">Details</a>
     </section>

@@ -20,6 +20,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 
 body {
@@ -29,16 +30,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.light-mode {    
-    background-color: var(--light-mode);
-    color: var(--dark-mode);
-}
-
-.dark-mode {    
-    background-color: var(--dark-mode);
-    color: var(--light-mode);
 }
 
 h1, h2, h3, h4, h5, h6, a {
@@ -61,6 +52,29 @@ a.nav-link {
    letter-spacing: 1px;
 }
 
+a.nav-link:hover, a.nav-link:focus, #mode-changer:hover {
+    cursor: pointer;
+    color: var(--hacking-green);
+}
+
+a.nav-link:not(:first-child)::before {
+    content: "# ";
+}
+
+.light-mode {    
+    background-color: var(--light-mode);
+    color: var(--dark-mode);
+}
+
+.dark-mode {    
+    background-color: var(--dark-mode);
+    color: var(--light-mode);
+}
+
+.techelement:not(:last-child)::after {
+    content: "|";
+}
+
 #mode-changer {
     color: inherit;
     background: transparent;
@@ -69,12 +83,6 @@ a.nav-link {
     font-size: .95em;
     font-weight: 500;
     letter-spacing: 1px;
-}
-
-
-a.nav-link:hover, #mode-changer:hover {
-    cursor: pointer;
-    color: var(--hacking-green);
 }
 
 /* ----- HEADER NAVIGATION ----- */
@@ -104,5 +112,27 @@ a.nav-link:hover, #mode-changer:hover {
 #website-navigation ul {
     display: flex;
     gap: 50px;
+}
+
+/* ----- PROFILE ----- */
+
+#profile {
+    margin-top: 135px;
+    max-width: 80%;
+}
+
+#profile .main-profile {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+#name {
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+#name #first-name {
+    font-weight: 400;
 }
 
