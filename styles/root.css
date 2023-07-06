@@ -32,7 +32,7 @@ body {
     align-items: center;
 }
 
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6, a, button {
     color: inherit;
     font-family: 'Montserrat';
 }
@@ -72,7 +72,7 @@ a.nav-link:not(:first-child)::before {
 }
 
 .techelement:not(:last-child)::after {
-    content: "|";
+    content: " |";
 }
 
 #mode-changer {
@@ -98,6 +98,7 @@ a.nav-link:not(:first-child)::before {
     align-items: center;
     justify-content: center;
 }
+
 
 #website-navigation {
     display: flex;
@@ -134,5 +135,11 @@ a.nav-link:not(:first-child)::before {
 
 #name #first-name {
     font-weight: 400;
+}
+
+/* ----- TECHSTACK ----- */
+
+#tags > * {
+    display: inline-block;
 }
 

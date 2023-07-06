@@ -1,5 +1,26 @@
 
+// SCREEN MODE USER LOOKUP
 
+document.addEventListener('DOMContentLoaded', function() {
+    let userStoredMode = localStorage.getItem('mode');
+    let bodyEle = document.body;
+    let modeSwitcherButton = document.getElementById("mode-changer");
+    
+    // Check the current mode
+    if (userStoredMode === 'dark') {
+        // Switch for dark mode
+        bodyEle.classList.remove('light-mode');
+        bodyEle.classList.add('dark-mode');
+        localStorage.setItem('mode', 'dark');
+        modeSwitcherButton.innerText = "GO LIGHT";
+    } else {
+        // Switch for light mode
+        bodyEle.classList.remove('dark-mode');
+        bodyEle.classList.add('light-mode');
+        localStorage.setItem('mode', 'light');
+        modeSwitcherButton.innerText = "GO DARK";
+    }
+})
 
 
 // SCREEN MODE SWITCHER
@@ -13,11 +34,13 @@ function changeMode() {
         // Switch for dark mode
         bodyEle.classList.remove('light-mode');
         bodyEle.classList.add('dark-mode');
+        localStorage.setItem('mode', 'dark');
         modeSwitcherButton.innerText = "GO LIGHT";
     } else {
         // Switch for light mode
         bodyEle.classList.remove('dark-mode');
         bodyEle.classList.add('light-mode');
+        localStorage.setItem('mode', 'light');
         modeSwitcherButton.innerText = "GO DARK";
     }
 }
