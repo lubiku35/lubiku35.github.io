@@ -130,16 +130,47 @@ a.nav-link:not(:first-child)::before {
 
 #name {
     font-size: 2em;
-    letter-spacing: 1px;
+    letter-spacing: .1em;
+
+    margin-bottom: 1em;
 }
 
 #name #first-name {
     font-weight: 400;
 }
 
+.profile-text-content p.about-me-description:first-of-type  {
+    margin-bottom: 2em;
+}
+
+.about-me-description {
+    font-weight: 400;
+    font-size: 1em;
+
+    line-height: 1.5em;
+    letter-spacing: .05em;
+}
+
+.about-me-description::first-letter {
+    color: var(--hacking-green);
+}
+
 /* ----- TECHSTACK ----- */
+
+#techstack {
+    max-width: 80%;
+    margin-top: 3em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#tags {
+    width: inherit;
+}
 
 #tags > * {
     display: inline-block;
 }
+
 
