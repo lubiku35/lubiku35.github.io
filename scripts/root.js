@@ -1,10 +1,12 @@
 
+let modeSwitcherButton = document.getElementById("mode-changer");
+
+
 // SCREEN MODE USER LOOKUP
 
 document.addEventListener('DOMContentLoaded', function() {
     let userStoredMode = localStorage.getItem('mode');
     let bodyEle = document.body;
-    let modeSwitcherButton = document.getElementById("mode-changer");
     
     // Check the current mode
     if (userStoredMode === 'dark') {
@@ -25,9 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // SCREEN MODE SWITCHER
 
-function changeMode() {
+modeSwitcherButton.addEventListener('click', function changeMode() {
     let bodyEle = document.body;
-    let modeSwitcherButton = document.getElementById("mode-changer");
 
     // Check the current mode
     if (bodyEle.classList.contains('light-mode')) {
@@ -43,4 +44,6 @@ function changeMode() {
         localStorage.setItem('mode', 'light');
         modeSwitcherButton.innerText = "GO DARK";
     }
-}
+})
+
+

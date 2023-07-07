@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ĽUBOSLAV MOTOŠICKÝ</title>
     <link rel="stylesheet" href="./styles/root.css" type="text/css">
-    <script src="./scripts/root.js"></script>
 </head>
 <body class="light-mode">
 
@@ -22,7 +21,7 @@
                     <a class="nav-link" href="./contact.html">CONTACT ME</a>
                 </li>
             </ul>
-            <button id="mode-changer" class="light-mode" onclick="changeMode()">GO DARK</button>
+            <button id="mode-changer" class="light-mode">GO DARK</button>
         </nav>
     </header>
 
@@ -35,6 +34,7 @@
                 <h1 id="name"><span id="first-name">ĽUBOSLAV</span> MOTOŠICKÝ</h1>
                 <p class="about-me-description">> 22 years old student of software engineering, information technologies and cyber security on CTU - FEL, currently working for MyCom Solutions as a junior IT Security Specialist, in addition to others, a sportsman, computer gamer and hacker.</p>
                 <p class="about-me-description">> Passion for knowledge, discovering new stuff, solving problems or overcoming seemingly insurmountable obstacles are my specs.</p>
+                <a id="details" href="">Details</a>
             </div>
         </div>
         
@@ -62,11 +62,27 @@
             <p class="techelement">C / C++</p>
             <p class="techelement">Business Requirements</p>
         </section>
-        <a href="">Details</a>
     </section>
 
     <section id="projects">
-
+        <div class="project-container">
+            <h3 class="project-title">Project 1</h3>
+            <p class="project-tags"></p>
+            <p class="project-description">> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, ea.</p>
+            <a href="" class="project-source">Source</a>
+        </div>
+        <div class="project-container">
+            <h3 class="project-title">Project 2</h3>
+            <p class="project-tags"></p>
+            <p class="project-description">> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, ea.</p>
+            <a href="" class="project-source">Source</a>
+        </div>
+        <div class="project-container">
+            <h3 class="project-title">Project 3</h3>
+            <p class="project-tags"></p>
+            <p class="project-description">> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, ea.</p>
+            <a href="" class="project-source">Source</a>
+        </div>
     </section>
 
     <footer>
@@ -76,5 +92,7 @@
 
         <p class="copyright">© 2023 | powered by <a href="#profile">lubiku</a></p>
     </footer>
+
+    <script type="text/javascript" src="./scripts/root.js"></script>
 </body>
 </html>
