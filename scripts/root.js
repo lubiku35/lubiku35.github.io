@@ -1,10 +1,10 @@
 
-let modeSwitcherButton = document.getElementById("mode-changer");
+let modeSwitcherButton = window.document.getElementById("mode-changer");
 
 
 // SCREEN MODE USER LOOKUP
 
-document.addEventListener('DOMContentLoaded', function() {
+window.document.addEventListener('DOMContentLoaded', function() {
     let userStoredMode = localStorage.getItem('mode');
     let bodyEle = document.body;
     

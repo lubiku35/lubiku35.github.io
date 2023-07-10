@@ -9,9 +9,11 @@
 
 :root {
     --dark-mode: #161616;
-    --light-mode: #FFFFFF;
+    --light-mode: #f1f1f1;
 
     --hacking-green: #00C460;
+    --hacking-green-low-opacity: #00c45f65;
+
 }
 
 /* ----- GLOBAL ----- */
@@ -71,9 +73,14 @@ a.nav-link:not(:first-child)::before {
     color: var(--light-mode);
 }
 
+.techelement {
+    text-transform: uppercase;    
+}
+
 .techelement:not(:last-child)::after {
     content: " |";
 }
+
 
 #mode-changer {
     color: inherit;
@@ -139,7 +146,7 @@ a.nav-link:not(:first-child)::before {
     font-weight: 400;
 }
 
-.profile-text-content p.about-me-description:first-of-type  {
+.profile-text-content p.about-me-description {
     margin-bottom: 2em;
 }
 
@@ -154,6 +161,19 @@ a.nav-link:not(:first-child)::before {
 .about-me-description::first-letter {
     color: var(--hacking-green);
 }
+
+#details {
+    font-weight: 400;
+    letter-spacing: .08em;
+    padding: 10px 20px;
+    border: 2px solid var(--hacking-green-low-opacity);
+}
+
+#details:hover, #details:focus {
+    cursor: pointer;
+    border: 2px solid var(--hacking-green);
+} 
+
 
 /* ----- TECHSTACK ----- */
 
@@ -173,4 +193,35 @@ a.nav-link:not(:first-child)::before {
     display: inline-block;
 }
 
+/* ----- PROJECTS ----- */
 
+#projects {
+    max-width: 80%;
+    min-width: 80%;
+
+    padding: 55px 0;
+
+    min-height: 60vh;
+    max-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#projects-heading {
+    font-size: 1.8em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#projects .project-container {
+    padding: 25px 0 10px;
+}
+
+#projects .project-container .project-title {
+    margin-bottom: 10px;
+}
