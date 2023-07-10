@@ -199,7 +199,7 @@ a.nav-link:not(:first-child)::before {
     max-width: 80%;
     min-width: 80%;
 
-    padding: 55px 0;
+    padding: 95px 0;
 
     min-height: 60vh;
     max-height: 100vh;
@@ -219,9 +219,40 @@ a.nav-link:not(:first-child)::before {
 }
 
 #projects .project-container {
-    padding: 25px 0 10px;
+    padding: 45px 0 10px;
 }
+
+#projects .light-container {
+    border-bottom: .5px solid var(--light-mode);
+}
+
+
+#projects .dark-container {
+    border-bottom: .5px solid var(--dark-mode);
+}
+
+
+#projects .project-container:hover {
+    border-bottom: .5px solid var(--hacking-green);
+    transition: border-bottom .8s ease-in-out;
+}
+
 
 #projects .project-container .project-title {
     margin-bottom: 10px;
+}
+
+#projects .project-description {
+    margin-bottom: 8px;
+}
+
+#projects .project-container .project-links {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.project-source, .project-docs {
+    cursor: pointer;
 }
