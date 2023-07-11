@@ -14,12 +14,14 @@ window.document.addEventListener('DOMContentLoaded', function() {
         bodyEle.classList.add('dark-mode');
         localStorage.setItem('mode', 'dark');
         modeSwitcherButton.innerText = "GO LIGHT";
+        switchProjectContainersMode('dark');
     } else {
         // Switch for light mode
         bodyEle.classList.remove('dark-mode');
         bodyEle.classList.add('light-mode');
         localStorage.setItem('mode', 'light');
         modeSwitcherButton.innerText = "GO DARK";
+        switchProjectContainersMode('light');
     }
 })
 
