@@ -81,6 +81,9 @@ a.nav-link:not(:first-child)::before {
     content: " |";
 }
 
+.project-title-counter {
+    font-size: 1.2em;
+}
 
 #mode-changer {
     color: inherit;
@@ -218,6 +221,10 @@ a.nav-link:not(:first-child)::before {
     margin-bottom: 20px;
 }
 
+#projects .project-title {
+    margin-bottom: 10px;
+}
+
 #projects .project-container {
     padding: 45px 0 10px;
 }
@@ -226,25 +233,35 @@ a.nav-link:not(:first-child)::before {
     border-bottom: .5px solid var(--light-mode);
 }
 
-
 #projects .dark-container {
     border-bottom: .5px solid var(--dark-mode);
 }
-
 
 #projects .project-container:hover {
     border-bottom: .5px solid var(--hacking-green);
     transition: border-bottom .8s ease-in-out;
 }
 
+#projects .project-container .project-description {
+    margin-bottom: 8px;
+}
 
-#projects .project-container .project-title {
+#projects .project-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
     margin-bottom: 10px;
 }
 
-#projects .project-description {
-    margin-bottom: 8px;
+#projects .project-tags .project-tag {
+    opacity: .8;
+    cursor: pointer;
 }
+
+#projects .project-tags .project-tag:hover, #projects .project-tags .project-tag:focus {
+    opacity: 1;
+} 
 
 #projects .project-container .project-links {
     margin-bottom: 5px;

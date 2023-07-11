@@ -3,7 +3,6 @@ let modeSwitcherButton = window.document.getElementById("mode-changer");
 
 
 // SCREEN MODE USER LOOKUP
-
 window.document.addEventListener('DOMContentLoaded', function() {
     let userStoredMode = localStorage.getItem('mode');
     let bodyEle = document.body;
@@ -38,7 +37,6 @@ modeSwitcherButton.addEventListener('click', function changeMode() {
         localStorage.setItem('mode', 'dark');
         modeSwitcherButton.innerText = "GO LIGHT";
         switchProjectContainersMode('dark');
-
     } else {
         // Switch for light mode
         bodyEle.classList.remove('dark-mode');
